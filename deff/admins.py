@@ -1,12 +1,12 @@
 import cache
 from typing import List
 from pyrogram.types import Chat
-from cache import get as gett
+from cache import get as lele
 from cache import set
 
 
 async def get_administrators(chat: Chat) -> List[int]:
-    get = gett(chat.id)
+    get = lele(chat.id)
 
     if get:
         return get
