@@ -13,6 +13,7 @@ API_HASH = getenv("API_HASH", None)
 SESSION_NAME = getenv("SESSION_NAME", None)
 BOT_USERNAME = getenv("BOT_USERNAME", None)
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
+SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 
 
 # Bolo shree krishna kaniya lal ki jai 
